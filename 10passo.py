@@ -80,3 +80,4 @@ select * from disciplinas where nome like '%python%';
 delete from alunos
 */
 """
+calculoImc(imc)
