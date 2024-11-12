@@ -1,4 +1,12 @@
-'''# 1) Crie um método que receba um valor em reais e converta a dólares
+
+# 1) Crie um método que receba um valor em reais e converta a dólares
+
+valor = float(input('Digite o valor em real: '))
+dolar = 5.76
+conversao = valor / dolar
+
+print('o valor em dolar é $', round(conversao,2))
+
 # • 2) Crie um método que receba 2 parâmetros: um valor em reais e a moeda que deve ser convertida (dólares, euros ou peso argentino). E
 # realize a conversão.
 # • 3) Crie um método que receba 3 parâmetros: um valor, moeda de origem e a moeda que deve ser convertida (dolares, euros ou peso
@@ -15,4 +23,4 @@
 # • Crie uma classe chamada Agencia, que tenha uma lista chamada contas
 # • A classe Agencia, deve ter um metodochamado adicionarConta, que adiciona uma nova conta à agencia
 # • A classe Agencia, deve ter um metodochamado quantidadeContas, que retorna a quantidade de contas da agencia
-'''
+
