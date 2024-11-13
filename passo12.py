@@ -66,7 +66,6 @@ nota2 = int(input('Digite sua 2ª nota: '))
 # • 6) Crie um método que receba as notas e retorne a média de notas do aluno
 
 
-
 # • 7) Crie um método que receba o valor em celsius e converta a farenheit
 
 
