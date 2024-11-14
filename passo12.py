@@ -57,11 +57,13 @@ def notasMaior(nota1,nota2):
     if nota1 > nota2:
         print('A maior nota é :',nota1)
     else:
-        print(print('A maior nota é :',nota2))
+        print('A maior nota é :',nota2)
     return
 
 nota1 = int(input('Digite sua 1ª nota: '))
 nota2 = int(input('Digite sua 2ª nota: '))
+
+maiorNota = notasMaior(nota1, nota2)
 
 # • 6) Crie um método que receba as notas e retorne a média de notas do aluno
 
