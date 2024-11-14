@@ -50,7 +50,7 @@ resultado = calculoImc(peso1,altura2)
 print('Seu IMC é:', round(resultado, 2))
 print('*********************')
 
-"""
+
 # • 5) Crie um método que receba as notas e retorne a maior nota do aluno
 
 def notasMaior(nota1,nota2):
@@ -63,10 +63,17 @@ def notasMaior(nota1,nota2):
 nota1 = int(input('Digite sua 1ª nota: '))
 nota2 = int(input('Digite sua 2ª nota: '))
 
-maiorNota = notasMaior(nota1, nota2)
-
 # • 6) Crie um método que receba as notas e retorne a média de notas do aluno
 
+"""
+def notaMedia(media):
+    media = nota3 / nota4
+    return
+
+nota3 = int(input('Digite sua 1ª nota: '))
+nota4 = int(input('Digite sua 2ª nota: '))
+
+"""
 
 # • 7) Crie um método que receba o valor em celsius e converta a farenheit
 
