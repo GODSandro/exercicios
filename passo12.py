@@ -66,12 +66,15 @@ nota2 = int(input('Digite sua 2ª nota: '))
 # • 6) Crie um método que receba as notas e retorne a média de notas do aluno
 
 """
-def notaMedia(media):
-    media = nota3 / nota4
-    return
+def notaMedia (nota3,nota4):
+    media = (nota3 + nota4) / 2
+    return media
 
-nota3 = int(input('Digite sua 1ª nota: '))
-nota4 = int(input('Digite sua 2ª nota: '))
+nota5 = int(input('Digite sua 1ª nota: '))
+nota6 = int(input('Digite sua 2ª nota: '))
+mediaFinal = notaMedia (nota5,nota6)
+print("Sua média é:",mediaFinal)
+
 
 """
 
@@ -90,4 +93,4 @@ nota4 = int(input('Digite sua 2ª nota: '))
 # • Crie uma classe chamada Agencia, que tenha uma lista chamada contas
 # • A classe Agencia, deve ter um metodochamado adicionarConta, que adiciona uma nova conta à agencia
 # • A classe Agencia, deve ter um metodochamado quantidadeContas, que retorna a quantidade de contas da agencia
-
+"""

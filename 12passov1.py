@@ -10,4 +10,4 @@ from passo12 import *
 #
 # notasMaior(nota1,nota2) # Exercício 05
 #
-notaMedia(media) # Exercício 05
+notaMedia (nota5,nota6) # Exercício 05
